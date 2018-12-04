@@ -1,0 +1,622 @@
+﻿zhangchen
+huangmengyao
+
+xiangtingting
+houjingling
+
+jifeiyu
+
+GaFlowSendMessageInfo
+
+
+
+搭建过redis集群架构：3主3从、使得读写分离，能够高效的从缓存中读写和写入数据;
+使用过Map实现了缓存机制辅助公司的抽奖系统顺利实现实时读取数据；
+zookeeper协调服务:注册分布式、一主双从服务，提高了zookeeper集群的高可用性;
+使用keepalived+ngnix搭建了高可用负载均衡机制，减轻系统的并发访问压力;
+使用消息中间件：activeMQ、rocketMQ消息传输机制及使用线程池解决过高并发的问题;
+独立搭建过springMVC框架;
+熟练应用的框架有SSM、springMVC、springBoot;
+熟练使用前端技术：js、jquery、jqueryEasyUi、echart等、并能够独立完成页面开发工作
+熟练使用数据库：oracle、mysql、sqlserver等，并能够写出复杂逻辑的sql及系统性能优化;
+能够熟练使用linux常用指令及编写shell脚本;
+在浪潮通信工作期间带领3人团队开发项目，分别进行前期需求的调研、项目开发进度、以及后期部署实施工作。
+
+JVM调优
+TOMCAT调优
+多线程 和 线程池
+spring
+
+dubbo
+docker
+mycat
+mangoDB
+mybatis
+CDN
+
+
+redis虚拟内存
+redis会话缓存
+
+项目管理
+
+Spring AOP
+请求防篡改的方法
+
+
+
+
+
+
+
+1.在项目中式如何使用Spring事务的？
+2.微服务架构的优势？
+3.如何对某个功能用AOP方式添加日志？
+4.使用sql执行计划对sql进行优化的步骤？
+5.在银行项目中如何防止请求数据请被篡改？
+
+
+1.union和union all的不同
+2.微服务架构中zk的作用
+3.dubbo中服务方和消费方都设置了timeout,实际会应用哪一个
+4.你所做项目的基本业务流程,不用说的很细致
+5.线程池的类型,你项目中怎么用的,业务背景是什么?
+
+
+1.存储过程的优缺点
+2.需求规格说明书主要由哪些部分构成
+3.redis集群的搭建中遇到的问题有哪些
+4.
+
+
+
+
+java, play framework, linux, docker,jquery, bootstrap
+
+满意网络科技
+
+2.应用服务器：
+测试环境：10.103.60.116 用户名：tomcat 密码：csqa.jn  
+   
+3.数据库：
+测试环境：10.103.60.35 
+数据库名称：pmis_ test  账号：pmis_ user  密码：pmis2@jn2
+
+4.原型地址：
+http://prd-anestor.rongera.com/pmis/#p=%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9Fpmis
+
+
+开发库： 10.103.60.39 用户名：pmis_dev 密码 ：pmis_dev
+
+
+
+https://192.168.211.251:8443/svn/pmis/trunk
+hujianren/dsX3G8~s@
+
+http://task.yinketong.org/login
+hujianren   12345678
+
+svn
+hujianren/yhgsR4#.S
+
+
+
+
+
+
+http://www.xunsee.cn/
+http://www.xunsee.cn/article/b4106f17-4c0b-4f93-a6e2-53fb060b4ea8/12.shtml
+
+
+
+
+$(".warnError")
+
+/bm/bmExistingCustDealInfo!queryList.xhtml
+
+
+http://test01-sms.rongera.com/sms-web/login.xhtml
+admin/aaa123
+
+13816612133 ZKSH00000414
+15001760595 ZKSH00001325
+
+huangjunlan /jZM6s8
+坐席号：7031 ，密码：RSD7031 -- 黄军兰
+坐席号：7007 ，密码：RSD7007 -- 刘思宇 -- 测试 
+坐席号：7016 ，密码：RSD7016 -- 武东升 -- 开发
+坐席号：7024 ，密码：RSD7024 -- 金泽红
+
+jinzehong、6T2kqJ
+
+
+<input name="borrowerPrivateSeaListQuery.followupTimeStart" id="borrowerPrivateSeaListQuery_followupTimeStart" ztype="calendar" type="text" doubleCalendar="false"
+									 startDate ="%y-%M-%d 00:00:00"  datefmt="yyyy-MM-dd HH:mm:ss" value='<s:date name="borrowerPrivateSeaListQuery.followupTimeStart" format="yyyy-MM-dd HH:mm:ss" />' />
+									至
+									<input name="borrowerPrivateSeaListQuery.followupTimeEnd" id="borrowerPrivateSeaListQuery_followupTimeEnd" ztype="calendar" type="text" doubleCalendar="false"
+									startDate ="%y-%M-%d 23:59:59" datefmt="yyyy-MM-dd HH:mm:ss" value='<s:date name="borrowerPrivateSeaListQuery.followupTimeEnd" format="yyyy-MM-dd HH:mm:ss" />' />
+
+
+
+
+/app/appCustInfo!getBkCustInfoList.xhtml
+
+ <z:user name="businessManagerId"></z:user>
+ 
+原因:该功能通常情况下查询反应较顺畅,而且出现反应较慢的情况都是和门户交互时间较长造成的
+在CRM侧无明显的优化点,建议暂不优化
+
+ 
+原因:目前该功能使用频率极低,而且出现反应较慢的情况都是和门户交互时间较长造成的
+在CRM侧无明显的优化点,建议暂不优化
+ 
+selectCustSimpleInfo
+
+原因:单表查询,逻辑简单,耗时较长问题出在和门户交互上
+修改点:调整了查询条件的前后顺序,索引字段靠左
+
+
+原因:单表查询,数据量不大,主要的耗时是在和门户系统的交互上,
+该功能用的较少,并且一般情况下该功能的反应时长都在1s之内
+
+
+#74305
+
+#72446  
+
+#72446 已经处理,无需再处理
+
+https://weibo.com/u/6534782714?is_hot=1#_rnd1527831241354
+
+if(checkBrIntoPrivateSeaDayCount(user.getId())){
+	throw new PmSysFaultCodeException(CrmFaultCodeConstants.CUSTR_CUST_OVER_DAY_CUST_MAX_COUNT_ERROR ,new String[] {""});
+}
+
+大家缺陷修复时，一定要认真填写
+1、产生原因
+2、影响分析
+3、测试范围
+
+74829  
+74523
+74415
+
+
+链接: [图片]https://pan.baidu.com/s/1pMua7Yr 
+密码: jy7v
+架构师链接：[图片]https://pan.baidu.com/s/1jJBKrwa 
+密码：x0ix
+微服务链接：[图片]https://pan.baidu.com/s/1skMyDhb 
+密码：knwr
+面试必备链接：[图片]https://pan.baidu.com/s/1jJhXVYQ 
+密码：dwey
+
+
+<s:if test="entity.custName!=null && entity.custName!=''">
+	<span><s:property value="entity.custName" /></span>
+</s:if>
+<s:else>
+	<span title="N/A">N/A</span>
+</s:else>
+
+phoneQuery.setCustType(CrmConstants.CRM_CUST_TYPE_01);
+
+ -Xms1024m -Xmx1024m -XX:PermSize=1024m -XX:MaxPermSize=2048m
+
+String custName = info.getName();
+                                if(StringUtils.isEmpty(custName)){
+                                	custName = CrmConstants.CRM_CUST_DEFAULT_NAME;
+                                }
+			
+
+String custNameStr = cust.getName();
+                    if(StringUtils.isEmpty(custNameStr)){
+                    	custNameStr = CrmConstants.CRM_CUST_DEFAULT_NAME;
+                    }			
+								
+#68815
+
+客户信息查看>顶部公共信息区，
+客户信息查看>顶流转记录，
+客户跟进几个页面，统一为”N/A“即可
+
+
+<s:radio id="entity_employmentState" onclick="setHide()" style="width:25px;" list="employeeRelationsList" name="entity.employmentState" listKey="itemCode" listValue="itemName" validate="{required:true}" cssClass="required"/>
+
+
+67471、67469
+
+Tomcat调优
+Mysql数据库
+SpringMvc
+高并发
+
+<s:checkboxlist name="entity.sealType" list="sealTypeList" listKey="itemCode" listValue="itemName"/>
+
+原因:查询对该URI的监控,从4月初到现在,访问的平均时间都在1s以内.符合性能流畅的标准
+
+#65805
+1、产生原因 访问门户获取机构信息没有使用到缓存
+2、影响分析 自动分配页面展示缓慢
+3、测试范围 自动分配一级页面查询
+
+
+<property name="keyGeneratorContainerBr" ref="crmKeyGeneratorContainerBr" />
+
+
+页面交互zwork_ui_rel丢失,导致页面报错 关联redmine号 
+
+
+1、产生原因 由于配置文件不是最新版本导致,已在版本V20180313（紧急）中解决 关联redmine单号 #65209
+2、影响分析 查询业务经理通话记录报错
+3、测试范围 查询业务经理通话记录
+
+
+
+<update id="updateBorrowerPledgeType" parameterType="com.yinker.crm.crm.bm.model.base.BmApplyOrderInfo">
+		update bm_apply_order_info 
+			<set>
+				<![CDATA[pledge_type = null ,]]>
+				<if test="lastUpdateTime != null"><![CDATA[last_update_time = #{lastUpdateTime},]]></if>
+			</set>
+		where id=#{id}
+	</update>
+	
+	
+	
+have-meet   绿色（已成单）
+give-up     灰色（不匹配）
+to-follow   橙色（待再次跟进、申请提交、已沟通、已见面、已签约）
+
+
+
+width="800" height="300" 
+
+ALTER TABLE br_borrower_register_info DROP PRIMARY KEY;
+ALTER TABLE br_borrower_register_info ADD COLUMN id INT AUTO_INCREMENT NOT NULL FIRST,ADD PRIMARY KEY(id);
+ALTER TABLE br_borrower_register_info ADD UNIQUE (apply_code);
+
+throw new PmSysFaultCodeException(CrmFaultCodeConstants.CUSTR_CUST_AT_LEAST_HAVE_ONE_CONDITION ,new String[] {""});
+ 
+ 
+iBPqLNSEAPPkzqHH
+
+2wsx!QAZ
+java.math.BigDecimal
+
+style="text-align: right;color:#FF932A"
+
+http://test-jenkins.rongera.com:58080/jenkins/view/custrel/
+dingyuting
+			
+https://www.xvideos.com/
+		
+			
+1.城市为其他,则先不同步到CRM,客服明确城市后再同步
+2.历史数据问题:yyhd导出,crm线下导入
+3.城市:房产所在城市
+4.来源渠道信息:分为两级
+
+
+http://127.0.0.1:8080/crm-web/bm/bmCustInfo!distributionToList.xhtml?ticketId=0D31B2A04BD848EE993D6B4B2EACD8B5
+
+
+新的工单系统地址，http://10.103.70.114:19254/
+帐号自己姓名，密码默认 888888，登录后改一下密码
+
+后续Redmine继续用，在Redmine收到任务后，登录工单系统上传sql脚本再提交，然后把Redmine任务的再提给我
+
+
+http://192.168.213.81:8080/bbs/control_login.action?ticketId=9F56A72BDCAC40568B1A2D40C2F9B967
+
+
+http://192.168.213.81:8080/bbs/control_login.action?ticketId=54F8C19C72BD4EB992A6688E7DF7B26C
+
+http://192.168.213.81:8080/bbs/control_login.action?ticketId=2069DAE8AEAA4BAB98495CB09B66D26D
+
+http://192.168.213.81:8080/bbs/control_login.action?ticketId=DC6532D82D11427D839F62C7280E93F0
+
+http://127.0.0.1:8080/crm-web
+
+http://prd-anestor.rongera.com/crm/#g=1&p=营销客户分配
+http://prd-anestor.rongera.com/crm/#g=1&p=缓冲区
+http://prd-anestor.rongera.com/crm/#g=1&p=私海-直客
+bbs.runstyle.com
+host="prd-bbs01.gd.com"
+
+  -Xms1024m -Xmx2048m -XX:MaxNewSize=512m -XX:MaxPermSize=1024m
+  
+http://localhost:8080/jeeadmin/jeebbs/index.do
+  
+恭喜您，系统已经安装成功！
+请重启TOMCAT服务。只有重启TOMCAT服务之后，安装才能生效。
+后台登录地址“网站根路径/jeeadmin/jeebbs/index.do”
+后台管理员admin，密码password。
+
+
+
+favorites
+<jsp:include page="./left.jsp"></jsp:include>
+less_interested
+msgbox('提示','你确定要取消吗？',function(){history.go(-1)},null,0,'Warning');
+
+if(window.confirm('你确定要取消吗？')){history.go(-1);};
+
+李伟, zhangcheng,madie
+
+<link href="<%=basePath%>/CSS/jquery-confirm.min.css" type="text/css" rel="stylesheet"/>
+        <script src="<%=basePath%>/JS/jquery-confirm.min.js"></script>
+		
+		
+		
+		$.confirm({
+        		title: '警告!',
+        	    content: '你确定要取消吗？',
+        	    useBootstrap:false,
+	            boxWidth: '30%',
+	            buttons: {
+		                  确定: function () {
+		            history.go(-1); 
+			    },
+			         取消: function () {
+			    }
+	         }
+           });
+		   
+		   
+		   
+		   $.alert({
+    			    title: '提示',
+    			    content: '请填写文章标题!',
+    			    useBootstrap:false,
+    	            boxWidth: '30%',
+    			    confirm: function(){
+    			    }
+    			});
+
+<s:iterator var="i" begin="1" end="%{totalPages}">
+										<option value="<s:property value="#i"/>" <s:if test="#i == pageBean.currentPage"> selected </s:if> ><s:property value="#i"/></option>
+									</s:iterator>
+									
+									
+			$.confirm({
+                title: '预约提示！',
+                content: '应聘者简历已登记成功，是否现在预约初试？',
+                useBootstrap:false,
+                boxWidth: '30%',
+                buttons: {
+                确定: function () {
+                        var container = $("#" + rel);
+                    	var opennerRel = $("#opennerRel", container).val();
+                    	$('#resumeForPlanBeginFlowButton',container)[0].click();
+                        $("#resumeSubmitButton").css("display","none");
+                    },
+                取消: function () {
+                    }
+                }
+            });
+			
+http://192.168.213.81:8080/bbs
+
+api.yunfangdata.com
+
+onclick="WdatePicker({dateFmt:'HH:mm:ss',minDate:'08:00:00',quickSel:['%H-00-00','%H-15-00','%H-30-00','%H-45-00']})"
+
+
+http://www.pycredit.com:8001/services/WebServiceSingleQuery?wsdl
+https://www.pycredit.com:8443/services/WebServiceSingleQuery?wsdl
+http://test.pycredit.com:9001/services/WebServiceSingleQuery?wsdl
+https://test.pycredit.com:9443/services/WebServiceSingleQuery?wsdl 
+
+http://192.168.213.81:8080      新的UAT数据库地址IP: 10.103.70.61 
+
+maven 前台控制页面 登录地址：http://10.103.60.159:8081/nexus/#view-repositories;public~browsestorage
+
+看测试环境 的日志和修改系统时间  可以 通过 
+http://10.1.17.24:8081/login.xhtml  
+账号 （ zhaojing  ） 密码 123
+
+10.103.60.35
+custreltest_user/test@jna
+
+ -Xms512m -Xmx1024m -XX:MaxNewSize=256m -XX:MaxPermSize=256m
+				
+数据库：10.1.17.123    custreltest_user/test@jna
+应用：10.1.17.122   tomcat/csqa.jn
+
+ftp://192.168.213.63/ 
+用户： yf2
+密码： rsd888
+
+oa 开发正式库   
+10.1.17.39    端口 3306  实例oa_dev  用户 oa_dev  密码 oa_dev 
+
+BeanUtils.copyProperties(ciCompanyBaseTemp, ciCompanyBaseInfo);
+
+zhangjing_admin
+
+svn地址 https://prd-svn.rongera.com:53690 
+
+https://www.pycredit.com/ 
+chenjinpeng
+123456Qwerty
+
+10.1.17.35:3306/crmsidp_test
+crmsidp_test
+idp@JN.com
+
+https://10.103.70.114:3000/zh-CN/account/login?return_to=%2Fzh-CN%2F 
+
+https://10.1.5.20:3000/zh-CN/account/login?return_to=%2Fzh-CN%2F 
+liyuqiang    
+gd.com@2016 
+host="prd-custrel01.gd.com"
+
+/server/java/jdk1.7.0_51/bin/jar -xvf idp-web.war
+http://www.zhichengcredit.com/echo-center/api/echoApi/v3
+
+throw new PmSysFaultCodeException(HrFaultCodeConstants.HR_DB_SERIALNUMBER_DUPLICATION_ERROR, new String[] {""});
+
+!CollectionUtils.isEmpty(files)
+
+kingpoon
+
+PMManager.getCurrentWorkDateTime();
+
+正式配置：ip：101.251.206.194    101.251.215.114   
+配置编号：1153    地址：ss2.lawxp.com/s.aspx
+秘钥:yiuK6rnu
+
+裁判文书
+执行信息
+失信信息
+民商事审判流程(包含开庭公告,送达公告,审判流程公开)
+欠款欠费名单(包含网贷逾期,律师函件)
+行政违法记录(包含破产与清算信息)
+
+
+预发布
+Ip:10.1.5.61 
+端口： 3306
+用户: crms_read_uat
+密码：gwdy.com@
+
+oa_uat   10.1.5.61   uat_oc.com
+
+OA测试环境
+10.1.5.44
+root yinkercom
+
+http://logio.runstyle.com/
+user: admin
+pass: 1q2w3e4r
+
+idea注册码：http://idea.lanyus.com/
+
+OA 准生产:http://10.1.5.170:8080/oa-web/services/decpHandle?wsdl
+WX准生产:http://wxtest.rongera.com/crmswx-web/services/decpHandle?wsdl 
+CRM准生产:http://10.1.5.94:8080/crm-web/
+官渡准生产:http://10.1.5.152:8080/crms-web/
+
+https://crms.runstyle.com/portal/remoteServiceServlet.do?portal.rmi.serviceName=rbacService&portal.rmi.method=getRbacUser&param0=0000001256&portal.rmi.paramNames=param0
+
+https://custrel.runstyle.com/
+
+chenxueqiang  cxq33965
+
+http://10.1.5.152:8080/crms-web/login.xhtml
+
+ 
+10.1.5.94
+
+10.103.70.61
+custrel_uat/cust833G.c
+
+crm 准生产环境   10.103.60.66 
+  tomcat csqau.jn     
+数据库： 10.103.70.61 
+   3309   custrel_uat/cust833G.c
+   
+
+10.1.5.94
+root/uar_crm
+
+
+ftp地址：                       
+ftp://10.1.5.159 dev yinkerdev  
+
+ps -ef|grep java
+kill -9 id
+cd /server/tomcat/webapps/crm-web
+rm -rf *
+通过FTP上传
+/server/java/jdk1.7.0_51/bin/jar -xvf crm-web.war
+cd /server/tomcat/bin
+sh startup.sh
+cd /server/logs/runstyle
+tail -f *all.log
+
+
+10.1.5.77 root crm.com
+
+
+S_DATA_I_20170113_28148_CRM_rbac_menu_hujianren
+
+ guidan_happy    1qaz@WSX
+					
+  <entry key="url">jdbc:mysql://10.1.5.111:3306/custrel_dev?useUnicode=true&amp;characterEncoding=utf-8</entry>
+  <entry key="username">custrel_dev</entry>
+  <entry key="password">custrel_dev</entry>
+    
+准备脱敏脚本
+
+PMManager.getCurrentWorkDateTime()
+
+玉强的自动生成代码的ftp：
+地址：ftp://10.103.60.159
+帐号密码：dev-tools/zwork-tool\
+
+自动生成代码
+ftp://10.103.60.159
+帐号： dev-tools
+密码： zwork-tool
+
+
+
+DATE_FORMAT(create_time,'%Y-%m-%d %H:%i:%S')
+
+用户名: admin
+密码: wpts@123.com   wpts@123123.com
+
+http://task.yinketong.org/my/page
+http://10.1.5.103:3000/login
+
+
+程序：https://10.1.5.159/svn/crm/trunk/
+文档：https://10.1.5.159/svn/docs_crm/trunk/
+
+https://10.1.5.159/svn/pms/trunk
+https://10.1.5.159/svn/docs_pms/trunk
+https://10.1.5.159/svn/axure_pms/trunk
+
+https://10.1.5.159/svn/oa/trunk
+https://10.1.5.159/svn/docs_oa/trunk
+
+http://10.1.5.159/crm
+http://10.1.5.159/pms
+
+https://10.103.60.159/svn/bbs/trunk 
+https://prd-svn.rongera.com:53690/svn/bbs/trunk
+
+
+https://prd-svn.rongera.com:53690/svn/crm/trunk/
+https://prd-svn.rongera.com:53690/svn/docs_crm/trunk/
+
+https://prd-svn.rongera.com:53690/svn/idp/trunk
+https://prd-svn.rongera.com:53690/svn/docs_idp/trunk
+
+https://prd-svn.rongera.com:53690/svn/docs_hr/trunk
+https://prd-svn.rongera.com:53690/svn/hr/trunk2.0
+
+https://prd-svn.rongera.com:53690/svn/oa/trunk2.0
+
+https://10.1.5.159/svn/idp/trunk
+https://10.1.5.159/svn/docs_idp/trunk
+
+https://prd-svn.rongera.com:53690/svn/docs_oa/trunk
+https://prd-svn.rongera.com:53690/svn/oa/trunk2.0/oa
+
+https://10.1.5.159/svn/redmine/trunk/progs/wpts
+https://10.1.5.159/svn/redmine/trunk/progs/wpts-web
+
+svn
+hujianren/yhgsR4#.S
+
+
+https://192.168.211.251:8443/svn/pmis/trunk
+hujianren/dsX3G8~s@
+
+http://task.yinketong.org/login
+hujianren   12345678
+
+https://prd-svn.rongera.com:53690/svn/train/trunk
